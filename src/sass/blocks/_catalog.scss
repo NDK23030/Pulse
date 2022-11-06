@@ -83,6 +83,7 @@
             text-align: center;
             &:hover {
                 color: $main-color;
+                text-decoration: none;
             }
         }
         hr {
@@ -166,6 +167,7 @@
             text-transform: uppercase;
             &:hover {
                 color: $main-color;
+                text-decoration: none;
             }
         }
     }
