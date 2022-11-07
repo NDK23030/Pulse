@@ -15,6 +15,12 @@
     &__icon {
         display: block;
         margin: 0 auto;
+        &_animated {
+            animation: heartbeat 1.5s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
     }
     &__subtitle {
         color: #0d0d0d;
